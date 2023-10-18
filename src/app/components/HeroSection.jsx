@@ -1,11 +1,12 @@
-import React from 'react'
-import Image from 'next/image'
-
+import React from 'react';
+import Image from 'next/image';
+import styles from './globals.css';
+ 
 
 const HeroSection = () => {
 
   return (
-    
+  
     <section>
         <div className='grid grid-cols-1 lg:grid-cols-12' >
         
@@ -30,6 +31,7 @@ const HeroSection = () => {
             </div>
         </div>
     </section>
+    
   )
 }
 
