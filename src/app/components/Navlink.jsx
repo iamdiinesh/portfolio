@@ -10,5 +10,4 @@ const NavLink = ({ href, title }) => {
     </Link>
   );
 };
-
 export default NavLink;
